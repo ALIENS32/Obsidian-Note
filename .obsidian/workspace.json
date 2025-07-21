@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "AI/RL基础/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -215,7 +215,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9756bafa84593d5b",
+  "active": "54b7629378c876f5",
   "lastOpenFiles": [
     "Home.md",
     "AI/RL基础/未命名.md",
