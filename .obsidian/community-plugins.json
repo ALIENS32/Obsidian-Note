@@ -1,17 +1,13 @@
 [
   "obsidian-git",
   "table-editor-obsidian",
-  "copilot",
   "homepage",
   "obsidian-icon-folder",
   "obsidian-kanban",
   "image-converter",
   "obsidian-outliner",
-  "editing-toolbar",
-  "obsidian42-brat",
   "manual-sorting",
-  "dataview",
-  "obsidian-quiet-outline",
   "number-headings-obsidian",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "editing-toolbar"
 ]
