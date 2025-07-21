@@ -206,6 +206,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/LLM技术/常见模型",
+    "AI/LLM技术/推理优化",
+    "AI/LLM技术/后训练",
+    "AI/LLM技术/预训练",
+    "AI/LLM技术/架构",
     "AI/Agent技术",
     "AI/深度学习基础",
     "AI",
@@ -227,7 +232,6 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts",
     "未命名 1.md"
   ]
 }
