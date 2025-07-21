@@ -182,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,6 +207,7 @@
   "active": "413308bfd9321fbf",
   "lastOpenFiles": [
     "未命名",
+    "LLM",
     "未命名看板.md",
     "Home.md",
     "copilot-custom-prompts/Emojify.md",
