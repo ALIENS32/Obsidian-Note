@@ -6,6 +6,7 @@
       "index.html"
     ],
     "AI": [
+      "AI/RL基础",
       "AI/深度学习基础",
       "AI/数学基础",
       "AI/Agent技术",
@@ -25,7 +26,10 @@
     "AI/LLM技术/后训练": [],
     "AI/LLM技术/架构": [],
     "AI/LLM技术/推理优化": [],
-    "AI/LLM技术/预训练": []
+    "AI/LLM技术/预训练": [],
+    "AI/RL基础": [
+      "AI/RL基础/未命名.md"
+    ]
   },
   "draggingEnabled": true,
   "selectedSortOrder": "manual-sorting"
