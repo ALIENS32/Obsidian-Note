@@ -25,14 +25,17 @@
             "id": "d1467ba7e2b3aadf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "AI/RL基础/状态价值和贝尔曼方程.md",
-                "mode": "source",
-                "source": false
+                "file": "AI/AI笔记大纲.canvas",
+                "viewState": {
+                  "x": -69.73272127147631,
+                  "y": -49.5469748866542,
+                  "zoom": -0.6666666666666667
+                }
               },
-              "icon": "lucide-file",
-              "title": "状态价值和贝尔曼方程"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI笔记大纲"
             }
           }
         ],
@@ -157,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/RL基础/状态价值和贝尔曼方程.md",
+                "file": "AI/AI笔记大纲.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "状态价值和贝尔曼方程 的大纲"
+              "title": "AI笔记大纲 的大纲"
             }
           },
           {
@@ -210,10 +213,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1beea5a38266dbaf",
+  "active": "d1467ba7e2b3aadf",
   "lastOpenFiles": [
-    "AI/RL基础/基本概念.md",
+    "未命名.md",
+    "AI/AI笔记大纲.canvas",
     "AI/RL基础/状态价值和贝尔曼方程.md",
+    "AI/数学基础/微积分",
+    "AI/数学基础/线性代数",
+    "AI/数学基础/概率论",
+    "AI/RL基础/基本概念.md",
     "Home.md",
     "AI/RL基础",
     "AI/LLM技术/后训练/RL基础",
@@ -222,9 +230,6 @@
     "AI/LLM技术/后训练",
     "AI/LLM技术/预训练",
     "AI/LLM技术/架构",
-    "AI/Agent技术",
-    "AI/深度学习基础",
-    "AI",
     "未命名看板.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
