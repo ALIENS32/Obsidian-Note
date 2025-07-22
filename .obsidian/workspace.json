@@ -222,8 +222,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ded8293131f00e7d",
+  "active": "413308bfd9321fbf",
   "lastOpenFiles": [
+    "工具使用/latex",
+    "工具使用",
     "AI/LLM技术/架构/Tokenization.md",
     "AI/LLM技术/架构/Attention.md",
     "AI/AI笔记大纲.canvas",
@@ -240,7 +242,6 @@
     "AI/RL基础",
     "AI/LLM技术/后训练/RL基础",
     "AI/LLM技术/常见模型",
-    "AI/LLM技术/推理优化",
     "未命名看板.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
