@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "最优状态与贝尔曼最优方程"
             }
+          },
+          {
+            "id": "ded8293131f00e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/LLM技术/架构/Tokenization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tokenization"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/AI笔记大纲.canvas",
+                "file": "AI/LLM技术/架构/Tokenization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI笔记大纲 的大纲"
+              "title": "Tokenization 的大纲"
             }
           },
           {
@@ -187,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -208,13 +222,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "46c64131da664980",
+  "active": "54b7629378c876f5",
   "lastOpenFiles": [
-    "AI/RL基础/状态价值和贝尔曼方程.md",
+    "AI/AI笔记大纲.canvas",
+    "AI/LLM技术/架构/Tokenization.md",
     "AI/RL基础/最优状态与贝尔曼最优方程.md",
+    "AI/LLM技术/架构/Attention",
+    "AI/LLM技术/架构/Embedding",
+    "AI/LLM技术/架构/Tokenization",
+    "AI/RL基础/状态价值和贝尔曼方程.md",
     "AI/RL基础/基本概念.md",
     "Home.md",
-    "AI/AI笔记大纲.canvas",
     "AI/数学基础/微积分",
     "AI/数学基础/线性代数",
     "AI/数学基础/概率论",
@@ -222,9 +240,6 @@
     "AI/LLM技术/后训练/RL基础",
     "AI/LLM技术/常见模型",
     "AI/LLM技术/推理优化",
-    "AI/LLM技术/后训练",
-    "AI/LLM技术/预训练",
-    "AI/LLM技术/架构",
     "未命名看板.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",

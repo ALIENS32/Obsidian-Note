@@ -1,11 +1,27 @@
 {
 	"nodes":[
-		{"id":"83887025dc27c0e0","x":-180,"y":-160,"width":89,"height":50,"color":"2","type":"text","text":"**AI**"},
-		{"id":"e73e7d952bc9757e","x":80,"y":-360,"width":320,"height":100,"type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963"},
-		{"id":"bd322ebd5109aceb","x":80,"y":-162,"width":320,"height":104,"type":"text","text":"RL 基础：主要参考\nhttps://blog.csdn.net/m0_64952374/category_12883361.html"}
+		{"id":"83887025dc27c0e0","type":"text","text":"**AI**","x":-180,"y":-160,"width":89,"height":50,"color":"2"},
+		{"id":"e73e7d952bc9757e","type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963","x":80,"y":-360,"width":320,"height":100},
+		{"id":"bd322ebd5109aceb","type":"text","text":"RL 基础：主要参考\nhttps://blog.csdn.net/m0_64952374/category_12883361.html","x":80,"y":-162,"width":320,"height":104},
+		{"id":"f6d95a295b4152d2","type":"text","text":"LLM","x":-400,"y":-160,"width":117,"height":50,"color":"5"},
+		{"id":"af2e026c66442837","x":-1440,"y":-1360,"width":205,"height":55,"type":"text","text":"分词概念、粒度"},
+		{"id":"add904ab8d6462e9","x":-1360,"y":-1271,"width":89,"height":50,"type":"text","text":"BPE"},
+		{"id":"c2d8c07daadb9c83","x":-1360,"y":-1201,"width":101,"height":56,"type":"text","text":"BBPE"},
+		{"id":"dd4b1c2e32e63998","x":-1120,"y":-1145,"width":240,"height":50,"type":"file","file":"AI/LLM技术/架构/Tokenization.md"},
+		{"id":"d95c859a7d393943","x":-760,"y":-1025,"width":126,"height":55,"type":"text","text":"架构"},
+		{"id":"6999f153c64344cf","x":-1360,"y":-1131,"width":103,"height":60,"type":"text","text":"WordPiece"},
+		{"id":"443e61f9332424ca","x":-1360,"y":-1055,"width":103,"height":58,"type":"text","text":"ULM"}
 	],
 	"edges":[
 		{"id":"fb11fd9949684383","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"e73e7d952bc9757e","toSide":"left"},
-		{"id":"2975c9a2ebeb3039","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"bd322ebd5109aceb","toSide":"left"}
+		{"id":"2975c9a2ebeb3039","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"bd322ebd5109aceb","toSide":"left"},
+		{"id":"b13cf46bea123efc","fromNode":"83887025dc27c0e0","fromSide":"left","toNode":"f6d95a295b4152d2","toSide":"right"},
+		{"id":"104ff57a1fe1e4bd","fromNode":"f6d95a295b4152d2","fromSide":"left","toNode":"d95c859a7d393943","toSide":"right"},
+		{"id":"8bf576ce3941264d","fromNode":"d95c859a7d393943","fromSide":"left","toNode":"dd4b1c2e32e63998","toSide":"right"},
+		{"id":"6ab9881f17c85c27","fromNode":"dd4b1c2e32e63998","fromSide":"left","toNode":"af2e026c66442837","toSide":"right"},
+		{"id":"12f99b867f8a3a35","fromNode":"dd4b1c2e32e63998","fromSide":"left","toNode":"add904ab8d6462e9","toSide":"right"},
+		{"id":"7fa8765f14f7cacc","fromNode":"dd4b1c2e32e63998","fromSide":"left","toNode":"c2d8c07daadb9c83","toSide":"right"},
+		{"id":"e2b6ced47f20daf0","fromNode":"dd4b1c2e32e63998","fromSide":"left","toNode":"6999f153c64344cf","toSide":"right"},
+		{"id":"4b58f52347130e73","fromNode":"dd4b1c2e32e63998","fromSide":"left","toNode":"443e61f9332424ca","toSide":"right"}
 	]
 }
