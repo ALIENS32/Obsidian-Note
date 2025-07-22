@@ -33,7 +33,8 @@
     "AI/LLM技术/常见模型": [],
     "AI/LLM技术/后训练": [],
     "AI/LLM技术/架构": [
-      "AI/LLM技术/架构/Tokenization.md"
+      "AI/LLM技术/架构/Tokenization.md",
+      "AI/LLM技术/架构/Attention.md"
     ],
     "AI/LLM技术/推理优化": [],
     "AI/LLM技术/预训练": [],

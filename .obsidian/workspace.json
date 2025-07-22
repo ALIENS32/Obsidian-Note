@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM技术/架构/Tokenization.md",
+                "file": "AI/LLM技术/架构/Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tokenization"
+              "title": "Attention"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/LLM技术/架构/Tokenization.md",
+                "file": "AI/LLM技术/架构/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Tokenization 的大纲"
+              "title": "Attention 的大纲"
             }
           },
           {
@@ -222,10 +222,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "54b7629378c876f5",
+  "active": "ded8293131f00e7d",
   "lastOpenFiles": [
-    "AI/AI笔记大纲.canvas",
     "AI/LLM技术/架构/Tokenization.md",
+    "AI/LLM技术/架构/Attention.md",
+    "AI/AI笔记大纲.canvas",
     "AI/RL基础/最优状态与贝尔曼最优方程.md",
     "AI/LLM技术/架构/Attention",
     "AI/LLM技术/架构/Embedding",
