@@ -1,10 +1,11 @@
 {
 	"nodes":[
 		{"id":"83887025dc27c0e0","x":-180,"y":-160,"width":89,"height":50,"color":"2","type":"text","text":"**AI**"},
-		{"id":"e73e7d952bc9757e","x":80,"y":-360,"width":320,"height":100,"type":"text","text":"数学基础：https://zhuanlan.zhihu.com/p/25643286963"},
-		{"id":"bd322ebd5109aceb","x":20,"y":-84,"width":250,"height":60,"type":"text","text":"RL 基础：\n"}
+		{"id":"e73e7d952bc9757e","x":80,"y":-360,"width":320,"height":100,"type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963"},
+		{"id":"bd322ebd5109aceb","x":80,"y":-162,"width":320,"height":104,"type":"text","text":"RL 基础：主要参考\nhttps://blog.csdn.net/m0_64952374/category_12883361.html"}
 	],
 	"edges":[
-		{"id":"fb11fd9949684383","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"e73e7d952bc9757e","toSide":"left"}
+		{"id":"fb11fd9949684383","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"e73e7d952bc9757e","toSide":"left"},
+		{"id":"2975c9a2ebeb3039","fromNode":"83887025dc27c0e0","fromSide":"right","toNode":"bd322ebd5109aceb","toSide":"left"}
 	]
 }
