@@ -9,6 +9,7 @@
     "工具使用": [
       "工具使用/latex"
     ],
+    "工具使用/latex": [],
     "AI": [
       "AI/AI笔记大纲.canvas",
       "AI/RL基础",
@@ -46,8 +47,7 @@
       "AI/RL基础/基本概念.md",
       "AI/RL基础/状态价值和贝尔曼方程.md",
       "AI/RL基础/最优状态与贝尔曼最优方程.md"
-    ],
-    "工具使用/latex": []
+    ]
   },
   "draggingEnabled": true,
   "selectedSortOrder": "manual-sorting"
