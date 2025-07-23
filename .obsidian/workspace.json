@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "AI/LLM技术/后训练/RLHF/MDP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "MDP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "AI/LLM技术/后训练/RLHF/MDP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "MDP 的大纲"
             }
           },
           {
@@ -195,6 +195,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/LLM技术/后训练/RLHF/PPO.md",
+    "AI/LLM技术/后训练/RLHF/MDP.md",
+    "Home.md",
+    "AI/LLM技术/后训练/RLHF",
+    "AI/LLM技术/后训练/RLHF.md",
     "AI/LLM技术/架构/Attention.md",
     "工具使用/latex",
     "工具使用",
@@ -206,12 +211,10 @@
     "AI/LLM技术/架构/Tokenization",
     "AI/RL基础/状态价值和贝尔曼方程.md",
     "AI/RL基础/基本概念.md",
-    "Home.md",
     "AI/数学基础/微积分",
     "AI/数学基础/线性代数",
     "AI/数学基础/概率论",
     "AI/RL基础",
-    "AI/LLM技术/后训练/RL基础",
     "未命名看板.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
