@@ -40,8 +40,7 @@
       "AI/LLM技术/后训练/RLHF"
     ],
     "AI/LLM技术/后训练/RLHF": [
-      "AI/LLM技术/后训练/RLHF/MDP.md",
-      "AI/LLM技术/后训练/RLHF/PPO.md"
+      "AI/LLM技术/后训练/RLHF/MDP.md"
     ],
     "AI/LLM技术/架构": [
       "AI/LLM技术/架构/Tokenization.md",
@@ -52,7 +51,8 @@
     "AI/RL基础": [
       "AI/RL基础/基本概念.md",
       "AI/RL基础/状态价值和贝尔曼方程.md",
-      "AI/RL基础/最优状态与贝尔曼最优方程.md"
+      "AI/RL基础/最优状态与贝尔曼最优方程.md",
+      "AI/RL基础/PPO.md"
     ]
   },
   "draggingEnabled": true,
