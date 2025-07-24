@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "fcf26ad82004292a",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e887db134672c801",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "AI/RL基础/时序差分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "时序差分"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "AI/RL基础/时序差分.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "时序差分 的大纲"
             }
           },
           {
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,21 +194,26 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e887db134672c801",
   "lastOpenFiles": [
+    "AI/AI笔记大纲.canvas",
+    "AI/RL基础/时序差分.md",
+    "AI/RL基础/蒙特卡洛.md",
+    "AI/RL基础/TRPO.md",
+    "AI/RL基础/梯度策略.md",
+    "Home.md",
+    "未命名.canvas",
     "AI/RL基础/状态价值和贝尔曼方程.md",
     "AI/RL基础/值迭代与策略迭代.md",
     "AI/RL基础/最优状态与贝尔曼最优方程.md",
     "AI/RL基础/PPO.md",
     "AI/LLM技术/后训练/RLHF/MDP.md",
-    "Home.md",
     "AI/LLM技术/后训练/RLHF",
     "AI/LLM技术/后训练/RLHF.md",
     "AI/LLM技术/架构/Attention.md",
     "工具使用/latex",
     "工具使用",
     "AI/LLM技术/架构/Tokenization.md",
-    "AI/AI笔记大纲.canvas",
     "AI/LLM技术/架构/Attention",
     "AI/LLM技术/架构/Embedding",
     "AI/LLM技术/架构/Tokenization",
@@ -226,10 +232,6 @@
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Summarize.md",
     "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Simplify.md",
-    "未命名 1.md"
+    "copilot-custom-prompts/Make shorter.md"
   ]
 }
