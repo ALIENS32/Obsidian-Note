@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/RL基础/值迭代与策略迭代.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "值迭代与策略迭代"
+              "title": "Home"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/RL基础/值迭代与策略迭代.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "值迭代与策略迭代 的大纲"
+              "title": "Home 的大纲"
             }
           },
           {
@@ -195,9 +195,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "AI/RL基础/最优状态与贝尔曼最优方程.md",
-    "AI/RL基础/值迭代与策略迭代.md",
     "AI/RL基础/状态价值和贝尔曼方程.md",
+    "AI/RL基础/值迭代与策略迭代.md",
+    "AI/RL基础/最优状态与贝尔曼最优方程.md",
     "AI/RL基础/PPO.md",
     "AI/LLM技术/后训练/RLHF/MDP.md",
     "Home.md",
