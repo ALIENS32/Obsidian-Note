@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"cf59fe48a75d82cd","type":"group","x":720,"y":80,"width":790,"height":560,"color":"5","label":"RL基础算法分类"},
-		{"id":"7d83ab9907aee9d1","type":"group","x":720,"y":-400,"width":660,"height":400,"color":"2","label":"系统资源"},
 		{"id":"af2e026c66442837","type":"text","text":"分词概念、粒度","x":-1440,"y":-1360,"width":205,"height":55},
 		{"id":"add904ab8d6462e9","type":"text","text":"BPE","x":-1360,"y":-1271,"width":89,"height":50},
 		{"id":"c2d8c07daadb9c83","type":"text","text":"BBPE","x":-1360,"y":-1201,"width":101,"height":56},
@@ -9,6 +8,9 @@
 		{"id":"d95c859a7d393943","type":"text","text":"架构","x":-760,"y":-1025,"width":126,"height":55},
 		{"id":"6999f153c64344cf","type":"text","text":"WordPiece","x":-1360,"y":-1131,"width":103,"height":60},
 		{"id":"443e61f9332424ca","type":"text","text":"ULM","x":-1360,"y":-1055,"width":103,"height":58,"color":"1"},
+		{"id":"e73e7d952bc9757e","type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963","x":80,"y":-1245,"width":320,"height":100},
+		{"id":"83887025dc27c0e0","type":"text","text":"**AI**","x":-180,"y":-160,"width":89,"height":50,"color":"4"},
+		{"id":"f6d95a295b4152d2","type":"text","text":"LLM","x":-400,"y":-160,"width":117,"height":50,"color":"5"},
 		{
 			"id":"bd322ebd5109aceb",
 			"type":"text",
@@ -19,9 +21,56 @@
 			"width":180,
 			"height":60
 		},
-		{"id":"e73e7d952bc9757e","type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963","x":80,"y":-1245,"width":320,"height":100},
-		{"id":"83887025dc27c0e0","type":"text","text":"**AI**","x":-180,"y":-160,"width":89,"height":50,"color":"4"},
-		{"id":"f6d95a295b4152d2","type":"text","text":"LLM","x":-400,"y":-160,"width":117,"height":50,"color":"5"},
+		{
+			"id":"99c3e59e87ae304e",
+			"type":"text",
+			"text":"蒙特卡洛",
+			"styleAttributes":{"textAlign":"center"},
+			"x":951,
+			"y":121,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"17764e9c0439be0c",
+			"type":"text",
+			"text":"SARSA",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":121,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"0d424f593dbb4074",
+			"type":"text",
+			"text":"TRPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":951,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"af03c8e59acd1244",
+			"type":"text",
+			"text":"GRPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1360,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"dd753225d1bf276d",
+			"type":"text",
+			"text":"PPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":550,
+			"width":130,
+			"height":60
+		},
 		{
 			"id":"3a952ee4a02c3060",
 			"type":"text",
@@ -54,46 +103,6 @@
 			"y":221,
 			"width":130,
 			"height":60
-		},
-		{
-			"id":"99c3e59e87ae304e",
-			"type":"text",
-			"text":"蒙特卡洛",
-			"styleAttributes":{"textAlign":"center"},
-			"x":951,
-			"y":121,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"17764e9c0439be0c",
-			"type":"text",
-			"text":"SARSA",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":121,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"f57b42fc6fab4756",
-			"type":"text",
-			"text":"基础算法串讲：【【大白话 03】一文理清强化学习 RL 基本原理 | 原理图解+公式推导】 https://www.bilibili.com/video/BV1rooaYVEk8/?share_source=copy_web&vd_source=40adf61f225dec3b53402d9e75b51c58",
-			"styleAttributes":{},
-			"x":740,
-			"y":-380,
-			"width":540,
-			"height":121
-		},
-		{
-			"id":"2a95223ded7e394a",
-			"type":"text",
-			"text":"强化学习数学原理简明笔记：https://blog.csdn.net/m0_64952374/category_12883361.html\n\n",
-			"styleAttributes":{},
-			"x":740,
-			"y":-245,
-			"width":540,
-			"height":90
 		},
 		{
 			"id":"d02bb20568dbef20",
@@ -144,36 +153,6 @@
 			"y":450,
 			"width":130,
 			"height":60
-		},
-		{
-			"id":"0d424f593dbb4074",
-			"type":"text",
-			"text":"TRPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":951,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"af03c8e59acd1244",
-			"type":"text",
-			"text":"GRPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1360,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"dd753225d1bf276d",
-			"type":"text",
-			"text":"PPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":550,
-			"width":130,
-			"height":60
 		}
 	],
 	"edges":[
@@ -194,15 +173,6 @@
 			"fromNode":"bd322ebd5109aceb",
 			"fromSide":"right",
 			"toNode":"cf59fe48a75d82cd",
-			"toSide":"left"
-		},
-		{
-			"id":"7895f379e639b2ca",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"bd322ebd5109aceb",
-			"fromSide":"right",
-			"toNode":"7d83ab9907aee9d1",
 			"toSide":"left"
 		},
 		{
