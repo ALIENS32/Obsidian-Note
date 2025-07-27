@@ -11,17 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI/AI笔记大纲.canvas",
-                "viewState": {
-                  "x": 513.6887716721417,
-                  "y": 292.1557811760265,
-                  "zoom": -1.0550781905607705
-                }
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI笔记大纲"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -199,6 +196,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/AI笔记大纲.canvas",
     "AI/RL基础/TRPO.md",
     "AI/RL基础/PPO.md",
     "AI/RL基础/最优状态与贝尔曼最优方程.md",
@@ -207,7 +205,6 @@
     "AI/RL基础/时序差分.md",
     "AI/RL基础/梯度策略.md",
     "Home.md",
-    "AI/AI笔记大纲.canvas",
     "AI/RL基础/蒙特卡洛.md",
     "未命名.canvas",
     "AI/RL基础/值迭代与策略迭代.md",
