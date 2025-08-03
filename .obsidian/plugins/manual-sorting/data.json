@@ -1,41 +1,19 @@
 {
   "customFileOrder": {
     "/": [
-      "工具使用",
       "AI",
       "Home.md",
       "index.html"
     ],
-    "工具使用": [
-      "工具使用/latex"
-    ],
-    "工具使用/latex": [],
     "AI": [
       "AI/AI笔记大纲.canvas",
       "AI/RL基础",
-      "AI/深度学习基础",
-      "AI/数学基础",
-      "AI/Agent技术",
       "AI/LLM技术"
     ],
-    "AI/深度学习基础": [],
-    "AI/数学基础": [
-      "AI/数学基础/概率论",
-      "AI/数学基础/线性代数",
-      "AI/数学基础/微积分"
-    ],
-    "AI/数学基础/概率论": [],
-    "AI/数学基础/微积分": [],
-    "AI/数学基础/线性代数": [],
-    "AI/Agent技术": [],
     "AI/LLM技术": [
       "AI/LLM技术/架构",
-      "AI/LLM技术/预训练",
-      "AI/LLM技术/后训练",
-      "AI/LLM技术/推理优化",
-      "AI/LLM技术/常见模型"
+      "AI/LLM技术/后训练"
     ],
-    "AI/LLM技术/常见模型": [],
     "AI/LLM技术/后训练": [
       "AI/LLM技术/后训练/RLHF"
     ],
@@ -46,8 +24,6 @@
       "AI/LLM技术/架构/Tokenization.md",
       "AI/LLM技术/架构/Attention.md"
     ],
-    "AI/LLM技术/推理优化": [],
-    "AI/LLM技术/预训练": [],
     "AI/RL基础": [
       "AI/RL基础/TRPO.md",
       "AI/RL基础/梯度策略.md",
