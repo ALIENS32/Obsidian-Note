@@ -29,6 +29,7 @@
     "AI/数学基础/线性代数": [],
     "AI/Agent技术": [],
     "AI/LLM技术": [
+      "AI/LLM技术/评估",
       "AI/LLM技术/常见模型",
       "AI/LLM技术/推理优化",
       "AI/LLM技术/预训练",
@@ -39,12 +40,13 @@
     "AI/LLM技术/后训练": [
       "AI/LLM技术/后训练/RLHF"
     ],
-    "AI/LLM技术/后训练/RLHF": [
-      "AI/LLM技术/后训练/RLHF/MDP.md"
-    ],
+    "AI/LLM技术/后训练/RLHF": [],
     "AI/LLM技术/架构": [
       "AI/LLM技术/架构/Tokenization.md",
       "AI/LLM技术/架构/Attention.md"
+    ],
+    "AI/LLM技术/评估": [
+      "AI/LLM技术/评估/评估方法综述.md"
     ],
     "AI/LLM技术/推理优化": [],
     "AI/LLM技术/预训练": [],
