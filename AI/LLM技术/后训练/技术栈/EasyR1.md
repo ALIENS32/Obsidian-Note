@@ -75,6 +75,13 @@ data:
 | min_pixels              | Qwen2/2.5-VL系列图像预处理时，对图像的最低pixel要求。                                                                                                                                                                                         |
 | max_pixels              | Qwen2/2.5-VL系列图像预处理时，对图像的最高pixel要求。                                                                                                                                                                                         |
 | filter_overlong_prompts | 是否将大于max_prompt_length的prompt从训练数据集中过滤出去。                                                                                                                                                                                   |
+
+训练的 step 数 = 数据总量（12 k）/ rollout_batch_size * epoch
+
+降低显存：
+- 调低最大回答长度
+- 调低 batch_size
+
 ## Algorithm
 
 ```yaml
