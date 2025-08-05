@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM技术/评估/评估方法综述.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "评估方法综述"
+              "title": "Home"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "AI/LLM技术/评估/评估方法综述.md",
+    "Home.md",
     "AI/LLM技术/评估",
     "AI/LLM技术/后训练/RLHF/MDP.md",
     "AI/AI笔记大纲.canvas",
