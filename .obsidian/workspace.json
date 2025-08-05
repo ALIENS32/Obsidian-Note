@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM技术/后训练/技术栈/EasyR1.md",
+                "file": "AI/LLM技术/后训练/RLHF/实际训练经验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EasyR1"
+              "title": "实际训练经验"
             }
           }
         ]
@@ -196,9 +196,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "AI/LLM技术/后训练/技术栈/VERL.md",
-    "AI/LLM技术/后训练/技术栈/EasyR1.md",
     "AI/LLM技术/后训练/RLHF/GRPO.md",
+    "AI/LLM技术/后训练/RLHF/实际训练经验.md",
+    "AI/LLM技术/后训练/技术栈/EasyR1.md",
+    "AI/LLM技术/后训练/技术栈/VERL.md",
     "AI/LLM技术/后训练/技术栈",
     "Home.md",
     "AI/LLM技术/评估/评估方法综述.md",
@@ -232,7 +233,6 @@
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Translate to Chinese.md"
+    "copilot-custom-prompts/Rewrite as tweet thread.md"
   ]
 }
