@@ -92,3 +92,5 @@ algorithm:
 
 训练多模态的时候可以将 disable_kl 设置为 true
 
+## Worker
+
