@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "AI/LLM技术/后训练/技术栈/EasyR1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "EasyR1"
+            }
+          },
+          {
+            "id": "097163cfc0249068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "资源/博文资源.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "博文资源"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,14 +209,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "097163cfc0249068",
   "lastOpenFiles": [
+    "AI/LLM技术/后训练/技术栈/EasyR1.md",
+    "资源/博文资源.md",
+    "资源",
+    "AI/LLM技术/后训练/技术栈/VERL.md",
     "AI/LLM技术/后训练/技术栈/实际训练经验.md",
     "AI/LLM技术/后训练/RLHF/GRPO.md",
-    "AI/LLM技术/后训练/技术栈/EasyR1.md",
-    "AI/LLM技术/后训练/技术栈/VERL.md",
-    "AI/LLM技术/后训练/技术栈",
     "Home.md",
+    "AI/LLM技术/后训练/技术栈",
     "AI/LLM技术/评估/评估方法综述.md",
     "AI/LLM技术/评估",
     "AI/LLM技术/后训练/RLHF/MDP.md",
@@ -226,13 +243,11 @@
     "AI/LLM技术/架构/Embedding",
     "AI/LLM技术/架构/Tokenization",
     "AI/数学基础/微积分",
-    "AI/数学基础/线性代数",
     "未命名看板.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md"
+    "copilot-custom-prompts/Make longer.md"
   ]
 }
