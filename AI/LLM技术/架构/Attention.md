@@ -95,3 +95,31 @@ attention(x, x, x)
 
 # 掩码自注意力
 
+核心就是自注意力机制由于是矩阵运算，于是可以并行训练
+对于一个序列，每个 token 都可以作为一个训练语料，即以这个 token 为分界线，前面的 token 可以看到，后面的 token 倍替换为遮盖的 mask
+于是对于一个序列形成一个上三角都是 mask 的矩阵的训练语料，右上角都被遮住：
+
+```python
+<BOS> 【MASK】【MASK】【MASK】【MASK】
+<BOS>    I   【MASK】 【MASK】【MASK】
+<BOS>    I     like  【MASK】【MASK】
+<BOS>    I     like    you  【MASK】
+<BOS>    I     like    you   </EOS>
+```
+
+具体实现来生成 mask 矩阵，-inf 会导致分数几乎为 0，所以注意力也变成了 0：
+
+```python
+# 创建一个上三角矩阵，用于遮蔽未来信息。
+# 先通过 full 函数创建一个 1 * seq_len * seq_len 的矩阵
+mask = torch.full((1, args.max_seq_len, args.max_seq_len), float("-inf"))
+# triu 函数的功能是创建一个上三角矩阵
+mask = torch.triu(mask, diagonal=1)
+
+#------
+
+# 此处的 scores 为计算得到的注意力分数，mask 为上文生成的掩码矩阵
+scores = scores + mask[:, :seqlen, :seqlen]
+scores = F.softmax(scores.float(), dim=-1).type_as(xq)
+```
+
