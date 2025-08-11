@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "量化/框架/Backtrader.md",
+                "file": "AI/LLM技术/架构/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Backtrader 的大纲"
+              "title": "Attention 的大纲"
             }
           },
           {
@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
