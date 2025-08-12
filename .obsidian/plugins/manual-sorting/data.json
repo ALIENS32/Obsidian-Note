@@ -20,6 +20,7 @@
       "量化/框架/Backtrader.md"
     ],
     "量化/理论": [
+      "量化/理论/基本概念.md",
       "量化/理论/仓位管理与风险控制.md"
     ],
     "AI": [
@@ -73,6 +74,7 @@
       "AI/LLM技术/架构/Attention.md"
     ],
     "AI/LLM技术/架构/image": [
+      "AI/LLM技术/架构/image/image.png",
       "AI/LLM技术/架构/image/image-1.png"
     ],
     "AI/LLM技术/评估": [
