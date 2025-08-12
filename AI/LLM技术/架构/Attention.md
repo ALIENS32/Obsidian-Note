@@ -363,3 +363,102 @@ h = x + self.attention.forward(self.attention_norm(x))
 # 经过前馈神经网络
 out = h + self.feed_forward.forward(self.fnn_norm(h))
 ```
+
+## Encoder
+
+![](./image/image-1.png)
+
+```python
+class EncoderLayer(nn.Module):
+  '''Encoder层'''
+    def __init__(self, args):
+        super().__init__()
+        # 一个 Layer 中有两个 LayerNorm，分别在 Attention 之前和 MLP 之前
+        self.attention_norm = LayerNorm(args.n_embd)
+        # Encoder 不需要掩码，传入 is_causal=False
+        self.attention = MultiHeadAttention(args, is_causal=False)
+        self.fnn_norm = LayerNorm(args.n_embd)
+        self.feed_forward = MLP(args.dim, args.dim, args.dropout)
+
+    def forward(self, x):
+        # Layer Norm
+        norm_x = self.attention_norm(x)
+        # 自注意力
+        h = x + self.attention.forward(norm_x, norm_x, norm_x)
+        # 经过前馈神经网络
+        out = h + self.feed_forward.forward(self.fnn_norm(h))
+        return out
+```
+
+```python
+class Encoder(nn.Module):
+    '''Encoder 块'''
+    def __init__(self, args):
+        super(Encoder, self).__init__() 
+        # 一个 Encoder 由 N 个 Encoder Layer 组成
+        self.layers = nn.ModuleList([EncoderLayer(args) for _ in range(args.n_layer)])
+        self.norm = LayerNorm(args.n_embd)
+
+    def forward(self, x):
+        "分别通过 N 层 Encoder Layer"
+        for layer in self.layers:
+            x = layer(x)
+        return self.norm(x)
+```
+
+## Decoder
+
+```python
+class DecoderLayer(nn.Module):
+  '''解码层'''
+    def __init__(self, args):
+        super().__init__()
+        # 一个 Layer 中有三个 LayerNorm，分别在 Mask Attention 之前、Self Attention 之前和 MLP 之前
+        self.attention_norm_1 = LayerNorm(args.n_embd)
+        # Decoder 的第一个部分是 Mask Attention，传入 is_causal=True
+        self.mask_attention = MultiHeadAttention(args, is_causal=True)
+        self.attention_norm_2 = LayerNorm(args.n_embd)
+        # Decoder 的第二个部分是 类似于 Encoder 的 Attention，传入 is_causal=False
+        self.attention = MultiHeadAttention(args, is_causal=False)
+        self.ffn_norm = LayerNorm(args.n_embd)
+        # 第三个部分是 MLP
+        self.feed_forward = MLP(args.dim, args.dim, args.dropout)
+
+    def forward(self, x, enc_out):
+        # Layer Norm
+        norm_x = self.attention_norm_1(x)
+        # 掩码自注意力
+        x = x + self.mask_attention.forward(norm_x, norm_x, norm_x)
+        # 多头注意力，q，k使用encoder的输出
+        norm_x = self.attention_norm_2(x)
+        h = x + self.attention.forward(norm_x, enc_out, enc_out)
+        # 经过前馈神经网络
+        out = h + self.feed_forward.forward(self.ffn_norm(h))
+        return out
+```
+
+```python
+class Decoder(nn.Module):
+    '''解码器'''
+    def __init__(self, args):
+        super(Decoder, self).__init__() 
+        # 一个 Decoder 由 N 个 Decoder Layer 组成
+        self.layers = nn.ModuleList([DecoderLayer(args) for _ in range(args.n_layer)])
+        self.norm = LayerNorm(args.n_embd)
+
+    def forward(self, x, enc_out):
+        "Pass the input (and mask) through each layer in turn."
+        for layer in self.layers:
+            x = layer(x, enc_out)
+        return self.norm(x)
+```
+
+# Embedding
+
+在 NLP 任务中，我们往往需要将自然语言的输入转化为机器可以处理的向量。在深度学习中，承担这个任务的组件就是 Embedding 层
+
+上述实现并不复杂，我们可以直接使用 torch 中的 Embedding 层：
+
+```python
+self.tok_embeddings = nn.Embedding(args.vocab_size, args.dim)
+```

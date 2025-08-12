@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "image",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,8 +195,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
+    "AI/LLM技术/架构/image/image-1.png",
+    "AI/LLM技术/架构/image/image.png",
+    "AI/LLM技术/架构/image",
+    "AI/LLM技术/架构/image/image-2.png",
     "AI/LLM技术/架构/Attention.md",
+    "Home.md",
     "AI/资源/博文资源.md",
     "AI/资源/代码文档.md",
     "未命名看板.md",
@@ -230,8 +234,6 @@
     "AI/LLM技术/后训练/RLHF",
     "AI/LLM技术/后训练/RLHF.md",
     "工具使用/latex",
-    "工具使用",
-    "AI/LLM技术/架构/Tokenization.md",
-    "copilot-custom-prompts/Emojify.md"
+    "AI/LLM技术/架构/Tokenization.md"
   ]
 }

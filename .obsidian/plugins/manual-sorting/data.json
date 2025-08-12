@@ -67,8 +67,12 @@
       "AI/LLM技术/后训练/RLHF/GRPO.md"
     ],
     "AI/LLM技术/架构": [
+      "AI/LLM技术/架构/image",
       "AI/LLM技术/架构/Tokenization.md",
       "AI/LLM技术/架构/Attention.md"
+    ],
+    "AI/LLM技术/架构/image": [
+      "AI/LLM技术/架构/image/image-1.png"
     ],
     "AI/LLM技术/评估": [
       "AI/LLM技术/评估/评估方法综述.md"
