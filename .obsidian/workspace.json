@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM技术/架构/Attention.md",
+                "file": "AI/LLM技术/架构/Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attention"
+              "title": "Transformer"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/LLM技术/架构/Attention.md",
+                "file": "AI/LLM技术/架构/Transformer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Attention 的大纲"
+              "title": "Transformer 的大纲"
             }
           },
           {
@@ -195,11 +195,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "AI/LLM技术/架构/image/image-1.png",
     "AI/LLM技术/架构/image/image.png",
+    "AI/LLM技术/架构/Attention.md",
+    "AI/LLM技术/架构/Transformer.md",
+    "AI/LLM技术/架构/image/image-1.png",
     "AI/LLM技术/架构/image",
     "AI/LLM技术/架构/image/image-2.png",
-    "AI/LLM技术/架构/Attention.md",
     "Home.md",
     "AI/资源/博文资源.md",
     "AI/资源/代码文档.md",
@@ -233,7 +234,6 @@
     "AI/RL基础/值迭代与策略迭代.md",
     "AI/LLM技术/后训练/RLHF",
     "AI/LLM技术/后训练/RLHF.md",
-    "工具使用/latex",
-    "AI/LLM技术/架构/Tokenization.md"
+    "工具使用/latex"
   ]
 }
