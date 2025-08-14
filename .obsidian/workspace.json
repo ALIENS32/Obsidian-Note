@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "量化/理论/指标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "指标"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "量化/理论/指标.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "指标 的大纲"
             }
           },
           {
@@ -196,6 +196,7 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
+    "量化/理论/指标.md",
     "量化/技术库/VectorBT.md",
     "量化/技术库/Ta-Lib.md",
     "量化/技术库/quantstats.md",
@@ -233,7 +234,6 @@
     "AI/RL基础/最优状态与贝尔曼最优方程.md",
     "AI/RL基础/状态价值和贝尔曼方程.md",
     "AI/RL基础/基本概念.md",
-    "AI/RL基础/时序差分.md",
     "未命名.canvas",
     "AI/LLM技术/后训练/RLHF"
   ]
