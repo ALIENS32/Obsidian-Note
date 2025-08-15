@@ -61,6 +61,7 @@
     ],
     "AI/LLM技术/常见模型": [],
     "AI/LLM技术/后训练": [
+      "AI/LLM技术/后训练/RLVR",
       "AI/LLM技术/后训练/技术栈",
       "AI/LLM技术/后训练/RLHF"
     ],
@@ -71,6 +72,9 @@
     ],
     "AI/LLM技术/后训练/RLHF": [
       "AI/LLM技术/后训练/RLHF/GRPO.md"
+    ],
+    "AI/LLM技术/后训练/RLVR": [
+      "AI/LLM技术/后训练/RLVR/综述.canvas"
     ],
     "AI/LLM技术/架构": [
       "AI/LLM技术/架构/image",
