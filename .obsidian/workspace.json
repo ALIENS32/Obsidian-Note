@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "AI/Agentic LLM/Agent+RL/未命名.base",
+                "file": "AI/Agentic LLM/Agent+RL/Agent+RL.base",
                 "viewName": "表格"
               },
               "icon": "lucide-table",
-              "title": "未命名"
+              "title": "Agent+RL"
             }
           }
         ]
@@ -197,12 +197,12 @@
   },
   "active": "e4d673b093ff1587",
   "lastOpenFiles": [
+    "AI/Agentic LLM/Agent+RL/Untitled.md",
     "AI/Agentic LLM/Agent+RL/ARPO.md",
     "量化/理论/基本概念.md",
-    "AI/Agentic LLM/Agent+RL/未命名.base",
+    "AI/Agentic LLM/Agent+RL/Agent+RL.base",
     "Home.base",
     "AI/Agentic LLM/Agent+RL/Untitled 1.md",
-    "AI/Agentic LLM/Agent+RL/Untitled.md",
     "AI/Agentic LLM/Agent+RL/未命名.md",
     "AI/Agentic LLM/Agent+RL/Agent+RL.canvas",
     "AI/RL基础/蒙特卡洛.md",

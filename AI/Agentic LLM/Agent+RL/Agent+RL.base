@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("AI/Agentic LLM/Agent+RL")
+    order:
+      - file.name
+      - 链接
+      - 时间
+      - 领域
+      - file.tags
+    sort:
+      - property: file.tags
+        direction: DESC
+      - property: 领域
+        direction: ASC
+    columnSize:
+      note.链接: 121
+      note.时间: 138
+      note.领域: 98
