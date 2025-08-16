@@ -6,27 +6,7 @@
 	},
 	"nodes":[
 		{"id":"e6fb2c8c2ed39dc4","type":"group","ratio":1.7777777777777777,"x":-640,"y":-280,"width":1280,"height":720,"label":"训练框架"},
-		{"id":"e0f2ee9ce08e2968","type":"file","file":"AI/Agentic LLM/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md","x":-560,"y":-200,"width":520,"height":560},
-		{
-			"id":"e6ffbad449bcbf86",
-			"type":"text",
-			"text":"**Agentic LLM**",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-1440,
-			"y":50,
-			"width":260,
-			"height":60
-		}
+		{"id":"e0f2ee9ce08e2968","type":"file","file":"AI/Agentic LLM/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md","x":-560,"y":-200,"width":440,"height":440}
 	],
-	"edges":[
-		{
-			"id":"a3104f2f89772e36",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"e6ffbad449bcbf86",
-			"fromSide":"right",
-			"toNode":"e6fb2c8c2ed39dc4",
-			"toSide":"left"
-		}
-	]
+	"edges":[]
 }
