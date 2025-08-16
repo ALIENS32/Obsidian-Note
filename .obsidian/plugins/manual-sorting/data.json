@@ -1,6 +1,7 @@
 {
   "customFileOrder": {
     "/": [
+      "templates",
       "量化",
       "工具使用",
       "AI",
@@ -35,7 +36,8 @@
       "AI/Agent技术",
       "AI/AI笔记大纲.canvas",
       "AI/RL基础",
-      "AI/LLM技术"
+      "AI/Agentic LLM",
+      "AI/LLM"
     ],
     "AI/深度学习基础": [],
     "AI/数学基础": [
@@ -51,46 +53,53 @@
       "AI/资源/博文资源.md"
     ],
     "AI/Agent技术": [],
-    "AI/LLM技术": [
-      "AI/LLM技术/评估",
-      "AI/LLM技术/常见模型",
-      "AI/LLM技术/推理优化",
-      "AI/LLM技术/预训练",
-      "AI/LLM技术/架构",
-      "AI/LLM技术/后训练"
+    "AI/Agentic LLM": [
+      "AI/Agentic LLM/RL"
     ],
-    "AI/LLM技术/常见模型": [],
-    "AI/LLM技术/后训练": [
-      "AI/LLM技术/后训练/RLVR",
-      "AI/LLM技术/后训练/技术栈",
-      "AI/LLM技术/后训练/RLHF"
+    "AI/Agentic LLM/RL": [
+      "AI/Agentic LLM/RL/未命名.md",
+      "AI/Agentic LLM/RL/Agent+RL.canvas"
     ],
-    "AI/LLM技术/后训练/技术栈": [
-      "AI/LLM技术/后训练/技术栈/实际训练经验.md",
-      "AI/LLM技术/后训练/技术栈/VERL.md",
-      "AI/LLM技术/后训练/技术栈/EasyR1.md"
+    "AI/LLM": [
+      "AI/LLM/评估",
+      "AI/LLM/常见模型",
+      "AI/LLM/推理优化",
+      "AI/LLM/预训练",
+      "AI/LLM/架构",
+      "AI/LLM/后训练"
     ],
-    "AI/LLM技术/后训练/RLHF": [
-      "AI/LLM技术/后训练/RLHF/GRPO.md"
+    "AI/LLM/常见模型": [],
+    "AI/LLM/后训练": [
+      "AI/LLM/后训练/RLVR",
+      "AI/LLM/后训练/技术栈",
+      "AI/LLM/后训练/RLHF"
     ],
-    "AI/LLM技术/后训练/RLVR": [
-      "AI/LLM技术/后训练/RLVR/综述.canvas"
+    "AI/LLM/后训练/技术栈": [
+      "AI/LLM/后训练/技术栈/实际训练经验.md",
+      "AI/LLM/后训练/技术栈/VERL.md",
+      "AI/LLM/后训练/技术栈/EasyR1.md"
     ],
-    "AI/LLM技术/架构": [
-      "AI/LLM技术/架构/image",
-      "AI/LLM技术/架构/Transformer.md",
-      "AI/LLM技术/架构/Tokenization.md",
-      "AI/LLM技术/架构/Attention.md"
+    "AI/LLM/后训练/RLHF": [
+      "AI/LLM/后训练/RLHF/GRPO.md"
     ],
-    "AI/LLM技术/架构/image": [
-      "AI/LLM技术/架构/image/image.png",
-      "AI/LLM技术/架构/image/image-1.png"
+    "AI/LLM/后训练/RLVR": [
+      "AI/LLM/后训练/RLVR/综述.canvas"
     ],
-    "AI/LLM技术/评估": [
-      "AI/LLM技术/评估/评估方法综述.md"
+    "AI/LLM/架构": [
+      "AI/LLM/架构/image",
+      "AI/LLM/架构/Transformer.md",
+      "AI/LLM/架构/Tokenization.md",
+      "AI/LLM/架构/Attention.md"
     ],
-    "AI/LLM技术/推理优化": [],
-    "AI/LLM技术/预训练": [],
+    "AI/LLM/架构/image": [
+      "AI/LLM/架构/image/image.png",
+      "AI/LLM/架构/image/image-1.png"
+    ],
+    "AI/LLM/评估": [
+      "AI/LLM/评估/评估方法综述.md"
+    ],
+    "AI/LLM/推理优化": [],
+    "AI/LLM/预训练": [],
     "AI/RL基础": [
       "AI/RL基础/TRPO.md",
       "AI/RL基础/梯度策略.md",
@@ -101,6 +110,9 @@
       "AI/RL基础/最优状态与贝尔曼最优方程.md",
       "AI/RL基础/值迭代与策略迭代.md",
       "AI/RL基础/PPO.md"
+    ],
+    "templates": [
+      "templates/论文阅读.md"
     ]
   },
   "draggingEnabled": true,

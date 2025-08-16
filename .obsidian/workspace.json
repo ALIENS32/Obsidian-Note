@@ -11,17 +11,35 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "AI/Agentic LLM/RL/Agent+RL.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Agent+RL"
+            }
+          },
+          {
+            "id": "26f511ef7704599d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "AI/Agentic LLM/RL/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "未命名"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "image",
+                "query": "论文阅读",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,20 +209,31 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "cmdr:新建笔记": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "26f511ef7704599d",
   "lastOpenFiles": [
-    "AI/LLM技术/后训练/RLVR/综述.canvas",
+    "AI/Agentic LLM/RL/Agent+RL.canvas",
+    "AI/Agentic LLM/RL/未命名.md",
+    "templates/未命名.md",
+    "templates/ARPO.md",
+    "templates/论文阅读.md",
+    "AI/Agentic LLM/RL/ARPO.md",
+    "templates",
+    "AI/LLM/后训练/RLVR/综述.canvas",
+    "AI/Agentic LLM/RL",
+    "AI/Agentic LLM",
+    "AI/LLM技术/后训练/RLVR/未命名.md",
+    "Home.md",
     "AI/LLM技术/后训练/RLVR/Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "AI/资源/代码文档.md",
     "AI/LLM技术/后训练/RLVR/RLVR.md",
     "AI/LLM技术/后训练/RLVR/Papers/未命名.md",
     "AI/LLM技术/后训练/RLVR/Papers",
-    "Home.md",
-    "AI/LLM技术/后训练/RLVR",
+    "AI/LLM/后训练/RLVR",
     "Projects/RLVR.canvas",
     "Projects/未命名.md",
     "Projects",
@@ -218,25 +247,16 @@
     "量化/技术库/未命名",
     "量化/理论/仓位管理与风险控制.md",
     "量化/理论/基本概念.md",
-    "AI/LLM技术/架构/Transformer.md",
-    "AI/LLM技术/架构/image/image.png",
-    "AI/LLM技术/架构/Attention.md",
-    "AI/LLM技术/架构/image/image-1.png",
-    "AI/LLM技术/架构/image",
+    "AI/LLM/架构/Transformer.md",
+    "AI/LLM/架构/image/image.png",
+    "AI/LLM/架构/Attention.md",
+    "AI/LLM/架构/image/image-1.png",
+    "AI/LLM/架构/image",
     "AI/LLM技术/架构/image/image-2.png",
     "AI/资源/博文资源.md",
     "未命名看板.md",
-    "量化/理论",
-    "量化/框架/Backtrader",
-    "量化/技术库",
-    "AI/LLM技术/后训练/技术栈/EasyR1.md",
-    "AI/LLM技术/后训练/技术栈/VERL.md",
-    "AI/LLM技术/后训练/技术栈/实际训练经验.md",
-    "AI/LLM技术/后训练/RLHF/GRPO.md",
-    "AI/LLM技术/评估/评估方法综述.md",
-    "AI/LLM技术/后训练/RLHF/MDP.md",
+    "AI/LLM/后训练/技术栈/EasyR1.md",
     "AI/AI笔记大纲.canvas",
-    "AI/RL基础/TRPO.md",
     "未命名.canvas"
   ]
 }

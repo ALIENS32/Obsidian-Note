@@ -4,7 +4,7 @@
 		{"id":"af2e026c66442837","type":"text","text":"分词概念、粒度","x":-1440,"y":-1360,"width":205,"height":55},
 		{"id":"add904ab8d6462e9","type":"text","text":"BPE","x":-1360,"y":-1271,"width":89,"height":50},
 		{"id":"c2d8c07daadb9c83","type":"text","text":"BBPE","x":-1360,"y":-1201,"width":101,"height":56},
-		{"id":"dd4b1c2e32e63998","type":"file","file":"AI/LLM技术/架构/Tokenization.md","x":-1120,"y":-1145,"width":240,"height":50},
+		{"id":"dd4b1c2e32e63998","type":"file","file":"AI/LLM/架构/Tokenization.md","x":-1120,"y":-1145,"width":240,"height":50},
 		{"id":"d95c859a7d393943","type":"text","text":"架构","x":-760,"y":-1025,"width":126,"height":55},
 		{"id":"6999f153c64344cf","type":"text","text":"WordPiece","x":-1360,"y":-1131,"width":103,"height":60},
 		{"id":"443e61f9332424ca","type":"text","text":"ULM","x":-1360,"y":-1055,"width":103,"height":58,"color":"1"},
