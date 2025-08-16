@@ -4,3 +4,6 @@ views:
     filters:
       and:
         - file.inFolder("AI/Agentic LLM")
+    order:
+      - file.name
+      - file.tags
