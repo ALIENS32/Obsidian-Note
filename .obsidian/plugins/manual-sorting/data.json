@@ -54,12 +54,10 @@
     ],
     "AI/Agent技术": [],
     "AI/Agentic LLM": [
-      "AI/Agentic LLM/Agent+RL"
-    ],
-    "AI/Agentic LLM/Agent+RL": [
-      "AI/Agentic LLM/Agent+RL/Agent+RL.base",
-      "AI/Agentic LLM/Agent+RL/ARPO.md",
-      "AI/Agentic LLM/Agent+RL/Agent+RL.canvas"
+      "AI/Agentic LLM/ReTool Reinforcement Learning for Strategic Tool Use in LLMs.md",
+      "AI/Agentic LLM/ARPO.md",
+      "AI/Agentic LLM/Agentic LLM.base",
+      "AI/Agentic LLM/Agentic LLM.canvas"
     ],
     "AI/LLM": [
       "AI/LLM/评估",

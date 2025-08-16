@@ -11,13 +11,14 @@
             "id": "e4d673b093ff1587",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "AI/Agentic LLM/Agent+RL/Agent+RL.base",
-                "viewName": "表格"
+                "file": "AI/Agentic LLM/ReTool Reinforcement Learning for Strategic Tool Use in LLMs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Agent+RL"
+              "icon": "lucide-file",
+              "title": "ReTool Reinforcement Learning for Strategic Tool Use in LLMs"
             }
           }
         ]
@@ -197,10 +198,14 @@
   },
   "active": "e4d673b093ff1587",
   "lastOpenFiles": [
-    "AI/Agentic LLM/Agent+RL/Untitled.md",
-    "AI/Agentic LLM/Agent+RL/ARPO.md",
+    "AI/Agentic LLM/Agentic LLM.base",
+    "AI/Agentic LLM/ReTool Reinforcement Learning for Strategic Tool Use in LLMs.md",
+    "AI/Agentic LLM/ARPO.md",
+    "AI/Agentic LLM/Agentic LLM.canvas",
     "量化/理论/基本概念.md",
+    "AI/Agentic LLM/Agent+RL/ARPO.md",
     "AI/Agentic LLM/Agent+RL/Agent+RL.base",
+    "AI/Agentic LLM/Agent+RL/Untitled.md",
     "Home.base",
     "AI/Agentic LLM/Agent+RL/Untitled 1.md",
     "AI/Agentic LLM/Agent+RL/未命名.md",
@@ -224,9 +229,6 @@
     "AI/RL基础/PPO.md",
     "AI/Agentic LLM/RL/未命名 1.md",
     "AI/Agentic LLM/RL/未命名.md",
-    "templates/未命名.md",
-    "templates/ARPO.md",
-    "AI/Agentic LLM/RL/ARPO.md",
     "templates",
     "AI/LLM/后训练/RLVR/综述.canvas",
     "AI/Agentic LLM/Agent+RL",
@@ -236,7 +238,6 @@
     "AI/LLM技术/后训练/RLVR/Papers",
     "AI/LLM/后训练/RLVR",
     "Projects/RLVR.canvas",
-    "Projects",
     "AI/LLM/架构/image/image.png",
     "AI/LLM/架构/image/image-1.png",
     "AI/LLM技术/架构/image/image-2.png",
