@@ -1,0 +1,11 @@
+formulas:
+  未命名: ""
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("AI/Agentic LLM/Agent+RL")
+    order:
+      - file.name
+      - formula.未命名

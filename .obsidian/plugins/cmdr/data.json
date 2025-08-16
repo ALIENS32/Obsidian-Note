@@ -10,6 +10,12 @@
       "icon": "lucide-file-plus",
       "name": "新建笔记",
       "mode": "any"
+    },
+    {
+      "id": "bases:new-file",
+      "icon": "lucide-layout-list",
+      "name": "数据基: 创建新数据基",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
