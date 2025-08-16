@@ -42,36 +42,6 @@
 			"height":60
 		},
 		{
-			"id":"0d424f593dbb4074",
-			"type":"text",
-			"text":"TRPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":951,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"af03c8e59acd1244",
-			"type":"text",
-			"text":"GRPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1360,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"dd753225d1bf276d",
-			"type":"text",
-			"text":"PPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
 			"id":"3a952ee4a02c3060",
 			"type":"text",
 			"text":"基于价值",
@@ -105,16 +75,6 @@
 			"height":60
 		},
 		{
-			"id":"d02bb20568dbef20",
-			"type":"text",
-			"text":"梯度策略",
-			"styleAttributes":{"textAlign":"center"},
-			"x":951,
-			"y":450,
-			"width":130,
-			"height":60
-		},
-		{
 			"id":"c03cfb075713ea39",
 			"type":"text",
 			"text":"Q-learning",
@@ -141,6 +101,46 @@
 			"styleAttributes":{"textAlign":"center"},
 			"x":1175,
 			"y":340,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"0d424f593dbb4074",
+			"type":"text",
+			"text":"TRPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":951,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"af03c8e59acd1244",
+			"type":"text",
+			"text":"GRPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1360,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"dd753225d1bf276d",
+			"type":"text",
+			"text":"PPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"d02bb20568dbef20",
+			"type":"text",
+			"text":"梯度策略",
+			"styleAttributes":{"textAlign":"center"},
+			"x":951,
+			"y":450,
 			"width":130,
 			"height":60
 		},

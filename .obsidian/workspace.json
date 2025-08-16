@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "AI/Agentic LLM/RL/Agent+RL.canvas",
+                "file": "AI/Agentic LLM/Agent+RL/Agent+RL.canvas",
                 "viewState": {
                   "x": 0,
                   "y": 0,
@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Agentic LLM/RL/未命名.md",
+                "file": "templates/论文阅读.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "论文阅读"
             }
           }
         ],
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "论文阅读",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,15 +215,32 @@
   },
   "active": "26f511ef7704599d",
   "lastOpenFiles": [
-    "AI/Agentic LLM/RL/Agent+RL.canvas",
+    "AI/Agentic LLM/Agent+RL/ARPO.md",
+    "AI/Agentic LLM/Agent+RL/Agent+RL.canvas",
+    "AI/LLM/后训练/RLHF/GRPO.md",
+    "AI/LLM/架构/Attention.md",
+    "AI/LLM/架构/Tokenization.md",
+    "AI/LLM/架构/Transformer.md",
+    "AI/LLM/评估/评估方法综述.md",
+    "AI/AI笔记大纲.canvas",
+    "AI/RL基础/TRPO.md",
+    "AI/RL基础/梯度策略.md",
+    "AI/RL基础/蒙特卡洛.md",
+    "AI/RL基础/时序差分.md",
+    "AI/RL基础/基本概念.md",
+    "AI/RL基础/状态价值和贝尔曼方程.md",
+    "AI/RL基础/最优状态与贝尔曼最优方程.md",
+    "AI/RL基础/值迭代与策略迭代.md",
+    "AI/RL基础/PPO.md",
+    "templates/论文阅读.md",
+    "AI/Agentic LLM/RL/未命名 1.md",
     "AI/Agentic LLM/RL/未命名.md",
     "templates/未命名.md",
     "templates/ARPO.md",
-    "templates/论文阅读.md",
     "AI/Agentic LLM/RL/ARPO.md",
     "templates",
     "AI/LLM/后训练/RLVR/综述.canvas",
-    "AI/Agentic LLM/RL",
+    "AI/Agentic LLM/Agent+RL",
     "AI/Agentic LLM",
     "AI/LLM技术/后训练/RLVR/未命名.md",
     "Home.md",
@@ -231,32 +248,15 @@
     "Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "AI/资源/代码文档.md",
     "AI/LLM技术/后训练/RLVR/RLVR.md",
-    "AI/LLM技术/后训练/RLVR/Papers/未命名.md",
     "AI/LLM技术/后训练/RLVR/Papers",
     "AI/LLM/后训练/RLVR",
     "Projects/RLVR.canvas",
-    "Projects/未命名.md",
     "Projects",
-    "量化/理论/指标.md",
-    "量化/技术库/VectorBT.md",
-    "量化/技术库/Ta-Lib.md",
-    "量化/技术库/quantstats.md",
-    "量化/技术库/Backtesting.md",
-    "量化/技术库/自制.md",
-    "量化/技术库/Backtrader.md",
     "量化/技术库/未命名",
-    "量化/理论/仓位管理与风险控制.md",
-    "量化/理论/基本概念.md",
-    "AI/LLM/架构/Transformer.md",
     "AI/LLM/架构/image/image.png",
-    "AI/LLM/架构/Attention.md",
     "AI/LLM/架构/image/image-1.png",
     "AI/LLM/架构/image",
     "AI/LLM技术/架构/image/image-2.png",
-    "AI/资源/博文资源.md",
-    "未命名看板.md",
-    "AI/LLM/后训练/技术栈/EasyR1.md",
-    "AI/AI笔记大纲.canvas",
     "未命名.canvas"
   ]
 }
