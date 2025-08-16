@@ -42,17 +42,14 @@
             "id": "b05dda4f669f476d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI/Agentic LLM/Agentic LLM.canvas",
-                "viewState": {
-                  "x": 353.9968060019268,
-                  "y": 126.18484822683729,
-                  "zoom": -1.8475462377030125
-                }
+                "file": "AI/LLM/架构/Attention.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Agentic LLM"
+              "icon": "lucide-file",
+              "title": "Attention"
             }
           }
         ],
@@ -177,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Agentic LLM/Agentic LLM.canvas",
+                "file": "AI/LLM/架构/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Agentic LLM 的大纲"
+              "title": "Attention 的大纲"
             }
           },
           {
@@ -230,11 +227,13 @@
       "cmdr:新建笔记": false
     }
   },
-  "active": "b05dda4f669f476d",
+  "active": "413308bfd9321fbf",
   "lastOpenFiles": [
+    "AI/LLM/架构/Tokenization.md",
+    "AI/LLM/架构/Transformer.md",
+    "AI/Agentic LLM/Agentic LLM.canvas",
     "AI/Agentic LLM/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
     "AI/Agentic LLM/Agentic LLM.base",
-    "AI/Agentic LLM/Agentic LLM.canvas",
     "AI/Agentic LLM/未命名.md",
     "templates/论文阅读.md",
     "Home.base",
@@ -252,8 +251,6 @@
     "Home.md",
     "AI/LLM/后训练/RLHF/GRPO.md",
     "AI/LLM/架构/Attention.md",
-    "AI/LLM/架构/Tokenization.md",
-    "AI/LLM/架构/Transformer.md",
     "AI/LLM/评估/评估方法综述.md",
     "AI/AI笔记大纲.canvas",
     "AI/RL基础/TRPO.md",
