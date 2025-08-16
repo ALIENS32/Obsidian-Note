@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9883c575c3c9650f",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e4cbdc01b1ad041c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI/LLM技术/后训练/RLVR/综述.canvas",
-                "viewState": {
-                  "x": -1107.8994932848616,
-                  "y": -329.60962841921554,
-                  "zoom": -0.6666666666666663
-                }
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "综述"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -197,11 +194,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e4cbdc01b1ad041c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/LLM技术/后训练/RLVR/综述.canvas",
     "AI/LLM技术/后训练/RLVR/Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
-    "AI/LLM技术/后训练/RLVR/综述.canvas",
     "AI/资源/代码文档.md",
     "AI/LLM技术/后训练/RLVR/RLVR.md",
     "AI/LLM技术/后训练/RLVR/Papers/未命名.md",
@@ -232,7 +229,6 @@
     "量化/理论",
     "量化/框架/Backtrader",
     "量化/技术库",
-    "量化",
     "AI/LLM技术/后训练/技术栈/EasyR1.md",
     "AI/LLM技术/后训练/技术栈/VERL.md",
     "AI/LLM技术/后训练/技术栈/实际训练经验.md",
