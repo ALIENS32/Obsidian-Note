@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("AI/Agent")
+    order:
+      - file.name
+      - file.tags
+      - 链接
+      - 领域
+    columnSize:
+      file.name: 267
+      note.链接: 89

@@ -1,6 +1,7 @@
 {
   "customFileOrder": {
     "/": [
+      "知识库管理需求.md",
       "Home.base",
       "templates",
       "量化",
@@ -33,11 +34,12 @@
       "AI/资源",
       "AI/深度学习基础",
       "AI/数学基础",
-      "AI/Agent技术",
       "AI/AI笔记大纲.canvas",
       "AI/RL基础",
-      "AI/Agentic LLM",
-      "AI/LLM"
+      "AI/Agent",
+      "AI/LLM",
+      "未命名.md",
+      "未命名.md"
     ],
     "AI/深度学习基础": [],
     "AI/数学基础": [
@@ -51,13 +53,6 @@
     "AI/资源": [
       "AI/资源/代码文档.md",
       "AI/资源/博文资源.md"
-    ],
-    "AI/Agent技术": [],
-    "AI/Agentic LLM": [
-      "AI/Agentic LLM/Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models.pdf",
-      "AI/Agentic LLM/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
-      "AI/Agentic LLM/Agentic LLM.base",
-      "AI/Agentic LLM/Agentic LLM.canvas"
     ],
     "AI/LLM": [
       "AI/LLM/评估",
@@ -112,6 +107,11 @@
     ],
     "templates": [
       "templates/论文阅读.md"
+    ],
+    "AI/Agent": [
+      "AI/Agent/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
+      "AI/Agent/Agentic LLM.base",
+      "AI/Agent/Agentic LLM.canvas"
     ]
   },
   "draggingEnabled": true,

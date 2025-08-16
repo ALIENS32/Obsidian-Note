@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "时间": "datetime",
-    "领域": "text"
+    "领域": "multitext",
+    "引用量": "number"
   }
 }

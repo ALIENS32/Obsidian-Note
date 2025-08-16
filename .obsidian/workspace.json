@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "AI/Agentic LLM/Agentic LLM.canvas",
+                "file": "AI/Agent/Agentic LLM.canvas",
                 "viewState": {
                   "x": 0,
                   "y": 0,
@@ -28,26 +28,31 @@
             "id": "6c411419e0f0923a",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "canvas",
               "state": {
-                "url": "https://www.alphaxiv.org/zh/overview/2508.03680v1",
-                "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning | alphaXiv",
-                "mode": "reader"
+                "file": "AI/Agent/Agentic LLM.canvas",
+                "viewState": {
+                  "x": -91.40574282147315,
+                  "y": 192.4993757802746,
+                  "zoom": -0.8137731862285872
+                }
               },
-              "icon": "globe-2",
-              "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning | alphaXiv"
+              "icon": "lucide-layout-dashboard",
+              "title": "Agentic LLM"
             }
           },
           {
-            "id": "b05dda4f669f476d",
+            "id": "ee060e5fb38b5ca9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI/Agentic LLM/Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models.pdf"
+                "file": "AI/Agent/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models"
+              "icon": "lucide-file",
+              "title": "Agent Lightning -  Train ANY AI Agents with Reinforcement Learning"
             }
           }
         ],
@@ -172,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Agentic LLM/Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models.pdf",
+                "file": "AI/Agent/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models 的大纲"
+              "title": "Agent Lightning -  Train ANY AI Agents with Reinforcement Learning 的大纲"
             }
           },
           {
@@ -197,12 +202,36 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "2cce99a570744d4d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b7e9b83246451219",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "插件不再活动"
+              "title": "新标签页"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -225,16 +254,17 @@
       "cmdr:新建笔记": false
     }
   },
-  "active": "b05dda4f669f476d",
+  "active": "ee060e5fb38b5ca9",
   "lastOpenFiles": [
-    "AI/LLM/架构/Attention.md",
+    "AI/Agent/Agentic LLM.base",
+    "AI/Agent/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
+    "知识库管理需求.md",
+    "AI/AI笔记大纲.canvas",
+    "AI/Agent/Agentic LLM.canvas",
     "AI/Agentic LLM/Li 等 - 2025 - MemOS An Operating System for Memory-Augmented Generation (MAG) in Large Language Models.pdf",
+    "AI/LLM/架构/Attention.md",
     "AI/LLM/架构/Tokenization.md",
     "AI/LLM/架构/Transformer.md",
-    "AI/Agentic LLM/Agentic LLM.canvas",
-    "AI/Agentic LLM/Agent Lightning -  Train ANY AI Agents with Reinforcement Learning.md",
-    "AI/Agentic LLM/Agentic LLM.base",
-    "AI/Agentic LLM/未命名.md",
     "templates/论文阅读.md",
     "Home.base",
     "AI/Agentic LLM/ARPO.md",
@@ -251,7 +281,6 @@
     "Home.md",
     "AI/LLM/后训练/RLHF/GRPO.md",
     "AI/LLM/评估/评估方法综述.md",
-    "AI/AI笔记大纲.canvas",
     "AI/RL基础/TRPO.md",
     "AI/RL基础/梯度策略.md",
     "AI/RL基础/时序差分.md",
@@ -261,7 +290,7 @@
     "templates",
     "AI/LLM/后训练/RLVR/综述.canvas",
     "AI/Agentic LLM/Agent+RL",
-    "AI/Agentic LLM",
+    "AI/Agent",
     "AI/LLM技术/后训练/RLVR/Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "Lambert 等 - 2025 - Tulu 3 Pushing Frontiers in Open Language Model Post-Training.pdf",
     "AI/LLM技术/后训练/RLVR/Papers",

@@ -4,11 +4,29 @@
 		{"id":"af2e026c66442837","type":"text","text":"分词概念、粒度","x":-1440,"y":-1360,"width":205,"height":55},
 		{"id":"add904ab8d6462e9","type":"text","text":"BPE","x":-1360,"y":-1271,"width":89,"height":50},
 		{"id":"c2d8c07daadb9c83","type":"text","text":"BBPE","x":-1360,"y":-1201,"width":101,"height":56},
-		{"id":"dd4b1c2e32e63998","type":"file","file":"AI/LLM/架构/Tokenization.md","x":-1120,"y":-1145,"width":240,"height":50},
-		{"id":"d95c859a7d393943","type":"text","text":"架构","x":-760,"y":-1025,"width":126,"height":55},
+		{"id":"dd4b1c2e32e63998","type":"file","file":"AI/LLM/架构/Tokenization.md","x":-1120,"y":-1145,"width":220,"height":60},
 		{"id":"6999f153c64344cf","type":"text","text":"WordPiece","x":-1360,"y":-1131,"width":103,"height":60},
-		{"id":"443e61f9332424ca","type":"text","text":"ULM","x":-1360,"y":-1055,"width":103,"height":58,"color":"1"},
 		{"id":"e73e7d952bc9757e","type":"text","text":"数学基础：主要参考https://zhuanlan.zhihu.com/p/25643286963","x":80,"y":-1245,"width":320,"height":100},
+		{
+			"id":"01235db68a7f9836",
+			"type":"text",
+			"text":"DQN",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1360,
+			"y":221,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"af03c8e59acd1244",
+			"type":"text",
+			"text":"GRPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1360,
+			"y":550,
+			"width":130,
+			"height":60
+		},
 		{"id":"83887025dc27c0e0","type":"text","text":"**AI**","x":-180,"y":-160,"width":89,"height":50,"color":"4"},
 		{"id":"f6d95a295b4152d2","type":"text","text":"LLM","x":-400,"y":-160,"width":117,"height":50,"color":"5"},
 		{
@@ -19,26 +37,6 @@
 			"x":80,
 			"y":-162,
 			"width":180,
-			"height":60
-		},
-		{
-			"id":"99c3e59e87ae304e",
-			"type":"text",
-			"text":"蒙特卡洛",
-			"styleAttributes":{"textAlign":"center"},
-			"x":951,
-			"y":121,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"17764e9c0439be0c",
-			"type":"text",
-			"text":"SARSA",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":121,
-			"width":130,
 			"height":60
 		},
 		{
@@ -65,6 +63,16 @@
 			"height":60
 		},
 		{
+			"id":"99c3e59e87ae304e",
+			"type":"text",
+			"text":"蒙特卡洛",
+			"styleAttributes":{"textAlign":"center"},
+			"x":951,
+			"y":121,
+			"width":130,
+			"height":60
+		},
+		{
 			"id":"f2c918b21ede635e",
 			"type":"text",
 			"text":"时序差分",
@@ -75,61 +83,11 @@
 			"height":60
 		},
 		{
-			"id":"c03cfb075713ea39",
-			"type":"text",
-			"text":"Q-learning",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":221,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"01235db68a7f9836",
-			"type":"text",
-			"text":"DQN",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1360,
-			"y":221,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"eeff92feb9734fd1",
-			"type":"text",
-			"text":"REINFORCE",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
-			"y":340,
-			"width":130,
-			"height":60
-		},
-		{
 			"id":"0d424f593dbb4074",
 			"type":"text",
 			"text":"TRPO",
 			"styleAttributes":{"textAlign":"center"},
 			"x":951,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"af03c8e59acd1244",
-			"type":"text",
-			"text":"GRPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1360,
-			"y":550,
-			"width":130,
-			"height":60
-		},
-		{
-			"id":"dd753225d1bf276d",
-			"type":"text",
-			"text":"PPO",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1175,
 			"y":550,
 			"width":130,
 			"height":60
@@ -145,6 +103,46 @@
 			"height":60
 		},
 		{
+			"id":"17764e9c0439be0c",
+			"type":"text",
+			"text":"SARSA",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":121,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"c03cfb075713ea39",
+			"type":"text",
+			"text":"Q-learning",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":221,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"eeff92feb9734fd1",
+			"type":"text",
+			"text":"REINFORCE",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":340,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"dd753225d1bf276d",
+			"type":"text",
+			"text":"PPO",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1175,
+			"y":550,
+			"width":130,
+			"height":60
+		},
+		{
 			"id":"1b349fa169070c97",
 			"type":"text",
 			"text":"Actor-Critic",
@@ -153,7 +151,9 @@
 			"y":450,
 			"width":130,
 			"height":60
-		}
+		},
+		{"id":"d95c859a7d393943","type":"text","text":"架构","x":-760,"y":-1025,"width":126,"height":55},
+		{"id":"443e61f9332424ca","type":"text","text":"ULM","x":-1360,"y":-1055,"width":103,"height":58,"color":"1"}
 	],
 	"edges":[
 		{"id":"b13cf46bea123efc","toFloating":false,"fromNode":"83887025dc27c0e0","fromSide":"left","toNode":"f6d95a295b4152d2","toSide":"right"},

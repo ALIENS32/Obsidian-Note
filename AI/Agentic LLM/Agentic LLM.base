@@ -1,9 +1,0 @@
-views:
-  - type: table
-    name: 表格
-    filters:
-      and:
-        - file.inFolder("AI/Agentic LLM")
-    order:
-      - file.name
-      - file.tags
